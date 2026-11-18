@@ -169,12 +169,7 @@ jobs:
           repository: kingalickai/rustdesk
           ref: master
           submodules: recursive
-        with:
-
           persist-credentials: false
-
-
-
       - name: Install Python
 
         if: ${{ inputs.publish-update-metadata }}
@@ -328,12 +323,6 @@ jobs:
           repository: kingalickai/rustdesk
           ref: master
           submodules: recursive
-        with:
-
-          submodules: recursive
-
-
-
       - name: Branding - set app name
 
         shell: bash
