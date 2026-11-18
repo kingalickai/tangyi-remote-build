@@ -40,9 +40,6 @@ jobs:
           repository: kingalickai/rustdesk
           ref: master
           submodules: recursive
-        with:
-          submodules: recursive
-
       - name: Install prerequisites
         run: |
           sudo apt-get install ca-certificates -y
